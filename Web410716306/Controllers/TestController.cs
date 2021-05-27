@@ -24,6 +24,7 @@ namespace Web410716306.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.daGG = "wow";
             return View();
         }
     }
